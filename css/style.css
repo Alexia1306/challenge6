@@ -1,92 +1,111 @@
 .header .col {
-  background-color: red;
+    background-color: red;
 }
 
 header {
-  background-image: url("../images/header.png");
-  padding-left: 2em;
-  padding-right: 2em;
+    background-image: url("../images/header.png");
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 header h1 {
-  font-family: 'Oswald';
-  color: white;
-  text-align: center;
-  padding: 0.5em 0;
+    font-family: 'Oswald';
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
 }
 
 header nav a {
-  font-family: 'Abel';
-  font-size: 1.5em;
+    font-family: 'Abel';
+    font-size: 1.5em;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: white;
+    color: white;
 }
 
 header nav ul {
-  background-color: #76CBFA;
-  width: 100%;
+    background-color: #76CBFA;
+    width: 100%;
 }
 
 .navbar {
-  padding: 0;
+    padding: 0;
 }
+
 .navbar-nav {
-justify-content: center;
+    justify-content: center;
 }
 
 .navbar-toggler {
-  background-color: #76CBFA;
-  width: 100%;
+    background-color: #76CBFA;
+    width: 100%;
 }
 
 header img {
-  margin-top: 1em;
-  margin-bottom: 3em;
-  border: solid 2px white;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    border: solid 2px white;
 }
 
-
-
-
-
 .col {
-  border: solid 1px;
+    border: solid 1px;
 }
 
 .article {
-  background-color: blue;
+    background-image: url('../images/fond.png');
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'Oswald';
+}
+
+h4 {
+    font-size: 1.5em;
+    font-family: 'Oswald';
+}
+
+.btn-secondary {
+    background-color: #FF3d00;
+
+}
+
+.btn-secondary:hover {
+    background-color: #FF0000;
+}
+
+.normal {
+    font-family: 'Arial';
+    font-size: 1em;
 }
 
 .article2 {
-  background-color: orange;
+    background-color: orange;
 }
 
 .article3 {
-  background-color: green;
+    background-color: green;
 }
 
 .article4 {
-  background-color: purple;
+    background-color: purple;
 }
 
 @media screen and (min-width: 768px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  header img {
-      border: solid 10px white;
-  }
+    h1 {
+        font-size: 2em;
+    }
+    header img {
+        border: solid 10px white;
+    }
 }
 
 @media screen and (min-width: 992px) {
-  h1 {
-    font-size: 4em;
-  }
-
-  header img {
-      border: solid 20px white;
-  }
+    h1 {
+        font-size: 4em;
+    }
+    header img {
+        border: solid 20px white;
+    }
 }
