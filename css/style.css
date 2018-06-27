@@ -105,7 +105,7 @@ p {
 }
 
 .article4 {
-    background-color: purple;
+    background-image: url('../images/footer.png');
 }
 
 .articlebouton{
@@ -125,13 +125,16 @@ p {
 
 }
 
-article li {
+ li {
 list-style-type: none;
 font-size: 0.9em;
 line-height: 2em;
 }
 
 
+footer {
+    background-image: url('../images/bas-de-page.png');
+}
 
 @media screen and (min-width: 768px) {
     h1 {
