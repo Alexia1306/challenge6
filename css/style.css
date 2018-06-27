@@ -48,21 +48,17 @@ header img {
     border: solid 2px white;
 }
 
-.col {
-    border: solid 1px;
-}
-
 .article {
     background-image: url('../images/fond.png');
 }
 
-h3 {
-    font-size: 2em;
+h4 {
+    font-size: 1.5em;
     font-family: 'Oswald';
 }
 
-h4 {
-    font-size: 1.5em;
+h5 {
+    font-size: 1em;
     font-family: 'Oswald';
 }
 
@@ -75,13 +71,33 @@ h4 {
     background-color: #FF0000;
 }
 
-.normal {
+p {
     font-family: 'Arial';
-    font-size: 1em;
+    font-size: 0.9em;
+}
+
+.article01{
+  margin: 2em 1.5em;
+}
+.article02  {
+  margin: 2em 0em;
 }
 
 .article2 {
-    background-color: orange;
+    background-image: url('../images/fond.png');
+}
+
+.article2 img {
+  float: left;
+  clear: both;
+}
+
+.article2 article {
+  background-image: url("../images/fond-article.png");
+}
+
+.article2 article {
+  margin:0em 1em;
 }
 
 .article3 {
@@ -92,6 +108,7 @@ h4 {
     background-color: purple;
 }
 
+
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 2em;
@@ -99,6 +116,7 @@ h4 {
     header img {
         border: solid 10px white;
     }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -108,4 +126,15 @@ h4 {
     header img {
         border: solid 20px white;
     }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.article2 img {
+  float: none;
+}
+.article02 {
+  margin: 1em 1.5em;
+}
+
 }
