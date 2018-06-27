@@ -80,7 +80,7 @@ p {
   margin: 2em 1.5em;
 }
 .article02  {
-  margin: 2em 0em;
+  margin-bottom: 2em;
 }
 
 .article2 {
@@ -101,7 +101,7 @@ p {
 }
 
 .article3 {
-    background-color: green;
+    background-image: url('../images/fond.png');
 }
 
 .article4 {
@@ -125,7 +125,11 @@ p {
 
 }
 
-
+article li {
+list-style-type: none;
+font-size: 0.9em;
+line-height: 2em;
+}
 
 
 
@@ -154,7 +158,8 @@ p {
   float: none;
 }
 .article02 {
-  margin: 1em 1.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
 }
 
 }
